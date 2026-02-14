@@ -1,1 +1,9 @@
+<header>
+  <h1>Welcome To This Angular Sandbox</h1>
+  <h3>Each Button Covers Different Angular Concepts and Features</h3>
+</header>
+
+@for (route of appRoutes; track route.path) {
+  <button [routerLink]="route.path">{{route.linkName}}</button>
+}
 <router-outlet></router-outlet>
