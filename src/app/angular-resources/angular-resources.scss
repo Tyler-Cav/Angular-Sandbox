@@ -1,0 +1,9 @@
+.testCaseOne {
+  border: 3px solid blue;
+  &:disabled {
+    border: 3px solid red;
+    width: 100px;
+    height: 70px;
+    background: blue;
+  }
+}
